@@ -12,8 +12,3 @@ def count_dif(num1, num2):
         return f"Разность числел равна {int(num1) - int(num2)}"
     else:
         return "Результат не известен. Число не должно содержать буквы или символы"
-
-
-number1 = input("Введите число")
-number2 = input("На сколько Вы хотите его уменьшить?")
-print(count_dif(number1, number2))
